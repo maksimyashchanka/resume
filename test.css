@@ -1,0 +1,210 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body{
+    font-family:'Roboto', sans-serif;
+    font-size: 18px;
+    font-weight: normal;
+    color: #282828;
+    margin: 10px;
+}
+
+.container{
+    max-width: 750px;
+    margin:auto;
+    background: #f6f5ed;
+    padding: 0 5px 0 ;
+
+}
+
+.avatar{
+    padding:10px 5px 0;
+    width: 300px;
+    height: 300px;
+    border-radius: 100%;
+}
+
+.info-name{
+    display: flex;
+    background: url("img/pngtree-my-resume-background-material-image_177383.jpg") no-repeat;
+    background-size: 750px ;
+    background-position: center top;
+
+}
+
+.info-name ul{
+    list-style: none;
+
+}
+
+.info-name ul li{
+    margin-bottom: 10px;
+}
+
+.info {
+    margin-top: 0;
+}
+
+.info h1, h2{
+    padding-left: 40px;
+}
+
+.info-text h2{
+    padding-left: 40px;
+}
+
+hr{
+    border: none;
+    background-color: #595958;
+    height: 2px;
+
+}
+
+h4{
+    margin-bottom: 10px;
+}
+
+
+.info-text ul{
+    list-style: none;
+}
+
+.info-text ul li{
+    margin-bottom: 10px;
+}
+
+.link{
+    padding-left: 40px;
+}
+
+.img{
+    width: 40px;
+    height: 40px;
+    padding-right: 10px;
+    margin-bottom: 10px;
+}
+
+a{
+    text-decoration: none;
+}
+
+.title{
+    padding-left: 40px;
+}
+
+.bg-yellow{
+    background: #ebf6c5;
+
+}
+
+.bg-green{
+    background: rgba(248, 89, 42, 0.62);
+}
+
+.card{
+    border: 1px solid #ffffff;
+    border-radius: 80px 5px 80px 5px;
+    margin-bottom: 20px;
+    padding-left: 20px;
+}
+
+
+
+.list ul{
+    list-style: none;
+}
+
+.list ul li{
+    margin-bottom: 10px;
+}
+
+.skil{
+    padding-left: 40px;
+}
+
+.table {
+    margin-bottom: 30px;
+
+}
+
+.table  td{
+    padding-left: 40px;
+    padding-right: 20px;
+}
+
+
+.form h2{
+    text-align: center;
+    padding: 0;
+    color: #332f2e;
+}
+
+.form-group label{
+    display: block;
+    font-size: 16px;
+    color: #935441;
+}
+
+.form-group input,
+.form-group textarea{
+    width: 100%;
+    box-sizing: border-box;
+    border: none;
+    background: transparent;
+    border-bottom: 1px solid #ccc;
+    color: #1e1c1c;
+    padding: 10px 0 15px;
+    outline: none;
+}
+
+.form-row{
+    margin-bottom: 10px;
+    display: flex;
+}
+
+.form-row .form-group{
+
+    margin-right: 20px;
+    width:50%;
+}
+
+.form-row .form-group:last-child{
+    margin-right: 0;
+}
+
+.btn{
+    border-radius: 20px;
+    border: 1px solid #000000;
+}
+
+.btn:hover{
+    background: #fc6636;
+    color: #fff;
+    border: #fc6636;
+}
+
+@media (max-width: 650px){
+    body{
+        font-size: 16px;
+    }
+
+    .info-name{
+        display: block;
+        text-align: center;
+    }
+
+    .avatar{
+        width: 200px;
+        height: 200px;
+        border-radius: 100%;
+    }
+
+    .form-row{
+        display: block;
+    }
+    .form-row .form-group{
+        width: 100%;
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+
+}
